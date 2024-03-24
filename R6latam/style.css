@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(211, 210, 210);
+}
+
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+a:visited{
+    color: initial;
+}
+
+.main_banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav{
+    background-color: rgb(206, 30, 138);
+    padding: 30px ;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav_link{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    
+}
+
+.title{
+    background-color: rgb(61, 168, 255);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo_team{
+    height: 100px;
+}
+
+.logo_teams{
+    height:50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.teams{
+    padding: 10px;
+    display: flex; 
+}
+
+.name_team{
+    font-size:150%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.jornada{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.player_team{
+    line-height: 1.5;
+
+}
+
+.card_team{
+    background-color: white;
+    width: 220px;
+    padding: 20px 15px;
+    margin: 15px auto;
+    border: 4px ;
+    border-style: dashed solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
+
+.day_game{
+    background-color: rgb(104, 104, 104);
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    padding: 20px 15px;
+    margin: 15px auto;
+    border: 4px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: rgb(211, 210, 210);
+}
+
+.match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.game{
+    padding: 10px;
+    border: 4px;
+    border-radius: 5px;
+    border-style: dotted;
+}
+
+.day_1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.day_2{
+    grid-column: 2;
+    grid-row: 1;
+}
+.day_3{
+    grid-column: 3;
+    grid-row: 1;
+}
+.day_4{
+    grid-column: 1;
+    grid-row: 2;
+}
+.day_5{
+    grid-column: 2;
+    grid-row: 2;   
+}
+.day_6{
+    grid-column: 3;
+    grid-row: 2;
+}
+.day_7{
+    grid-column: 1;
+    grid-row: 3;
+}
+.day_8{
+    grid-column: 2;
+    grid-row: 3;
+}
+.day_9{
+    grid-column: 3;
+    grid-row: 3;
+}
+.day_10{
+    grid-column: 1;
+    grid-row: 4;
+}
